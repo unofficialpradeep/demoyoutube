@@ -1,0 +1,50 @@
+.vauthor
+{
+   font-size: 14px;
+   color: RGB(96,96,96);
+   margin-left: 50px;
+   margin-top: 0px; 
+   line-height:5px; 
+   
+}
+.profile_im{
+width: 37px;
+border-radius: 19px;
+
+
+}
+.vtitle{
+margin-top: 0;
+font-size: 17px;
+line-height: 20px;
+margin-bottom: 20px;
+width : 350px;
+
+}
+.grid_col{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  padding-bottom: 500px;
+  
+}
+@media(max-width: 750px){
+  .grid_col{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+@media(min-width: 751px)and(max-width:999px){
+  .grid_col{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+.im_grid{
+display: grid;
+grid-template-columns: 50px 1fr;
+
+}
+.image{
+width: 100%;
+}
